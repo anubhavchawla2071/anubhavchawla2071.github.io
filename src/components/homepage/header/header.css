@@ -1,0 +1,25 @@
+.header{
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.header-options {
+    padding: 0px 20px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+.header-items {
+    display: flex;
+    align-items: center;
+}
+.header-profile-icon {
+    margin: 20px;
+    border-radius: 5px;
+    height: 40px;
+    width: 40px;
+}
