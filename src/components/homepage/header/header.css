@@ -1,25 +1,33 @@
 .header{
     height: 10vh;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0vh;
+    left: 0vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100vw;
+    /* background-color: aqua; */
+    /* opacity: 0.4; */
+  background-color: #141414;
+    z-index: 1;
 }
 
 .header-options {
-    padding: 0px 20px;
-    margin-top: 10px;
+    padding: 0px 0.5em;
+    margin-top: 0.1em;
     font-size: 2rem;
+    align-self: center;
 }
 .header-items {
     display: flex;
     align-items: center;
+    /* background-color: azure; */
+    width:50vw;
 }
 .header-profile-icon {
-    margin: 20px;
+    margin-right: 5vh;
     border-radius: 5px;
-    height: 40px;
-    width: 40px;
+    height: 6vh;
+    width: 6vh;
 }

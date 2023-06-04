@@ -1,6 +1,12 @@
 .logo {
     font-family: "Bebas Neue";
     font-size: 3rem;
-    padding: 0px 20px;
+    padding: 0px 0.5em;
     color: #d71e26;
+    /* background-color: aliceblue; */
 }
+/* .ellipse{
+    background-color: aliceblue;
+    width:1em;
+    height: 1rem;
+} */
